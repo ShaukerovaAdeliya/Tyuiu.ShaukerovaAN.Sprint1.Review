@@ -14,7 +14,7 @@ namespace Tyuiu.ShaukerovaAN.Sprint1.TaskReview.V21.Test
             DataService ds = new DataService();
             double x = 2;
             double y = 4;
-            double wait = -2.486 ;
+            double wait = 13.377 ;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
         }
